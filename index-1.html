@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shoe Shop Project</title>
+  <style>
+    h1 { color: black; padding-top: 10px; }
+    li, ul { display: inline; }
+    ul { margin-left: 18%; }
+    li { color: black; }
+    li:hover { color: red; }
+    .h { color: blue; padding: 10px; }
+    h3 { color: yellow; }
+    #btn { color: black; }
+    #w { height: 140px; background-color: #87CEEB; }
+    #s, #rs, #su {
+      display: inline-block;
+      width: 180px;
+      border: 2px solid;
+      margin: 10px;
+      padding: 5px;
+    }
+    a:hover { color: red; }
+    .e { color: brown; }
+    .mr { color: blue; }
+    .it { color: green; }
+  </style>
+</head>
+<body>
+
+  <center><h1>SHOE SHOP</h1></center>
+  <hr>
+  <ul>
+    <li>Home</li>
+    <li>|</li>
+    <li>Product</li>
+    <li>|</li>
+    <li>About</li>
+  </ul>
+  <hr>
+
+  <center>
+    <div id="w">
+      <h2 class="h">Welcome To Shoe Shop</h2>
+      <h3>Check out our products</h3>
+      <input type="text" placeholder="search">
+      <button id="btn" onclick="update()">Check</button>
+    </div>
+  </center>
+
+  <hr>
+  <center><h4 class="one">Featured Product</h4></center>
+
+  <div id="s">
+    <center>
+      <img src="https://i.ibb.co/5gYvp3JD/61ut-X8k-BDl-L-UL1500.jpg" width="150px">
+      <p>Running Shoe</p>
+      <a href="https://www.amazon.in/ASIAN-Wonder-13-Sports-Running-Shoes/dp/B01N54ZM9W/">To Purchase</a>
+      <p>$549</p>
+    </center>
+  </div>
+
+  <div id="rs">
+    <center>
+      <img src="https://i.ibb.co/ccDJxzDT/51c-Tr1mkzu-L-UY1000-FMwebp.webp" width="150px">
+      <p>Sparx</p>
+      <a href="https://www.amazon.in/dp/B07R1MDZH1/">To Purchase</a>
+      <p>$639</p>
+    </center>
+  </div>
+
+  <div id="su">
+    <center>
+      <img src="https://i.ibb.co/LDz5FsC5/71-EGzixbr-RL-UY1000-FMwebp.webp" width="150px">
+      <p>Canvas Sneakers</p>
+      <a href="https://www.amazon.in/U-S-POLO-ASSN-Sneakers-2FD23294A01/dp/B0C9F7DXD7/">To Purchase</a>
+      <p>$1710</p>
+    </center>
+  </div>
+
+  <div id="su">
+    <center>
+      <img src="https://i.ibb.co/wF9vT7Xg/51-DEf-MNn9-NL-UY1000-FMwebp.webp" width="150px">
+      <p>Sandals</p>
+      <a href="https://www.amazon.in/Sparx-Black-Athletic-Outdoor-Sandals/dp/B00KG6WZPG/">To Purchase</a>
+      <p>$519</p>
+    </center>
+  </div>
+
+  <hr>
+  <center>
+    <h4 id="4">About</h4>
+    <p class="mr">Created by Mr. Suganesh</p>
+    <p class="it">It is my first web page</p>
+    <h4 class="e">Email: suganeshranganathan3@gmail.com</h4>
+    <a href="https://www.instagram.com/mr__suganesh__">Follow on Instagram</a><br>
+    <a href="https://www.linkedin.com/in/suganesh07">View on LinkedIn</a>
+  </center>
+
+  <script>
+    function update() {
+      document.getElementById("btn").style.backgroundColor = "green";
+    }
+  </script>
+</body>
+</html>
